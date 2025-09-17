@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>job portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal - Job Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Job-Portal-Application</h1>
+<p>A job portal is a web-based platform that connects employers (companies) with job seekers.
+It allows companies to post job openings and allows users (candidates) to search, apply for, and sometimes track their applications.
+Job portals streamline the recruitment process by offering various tools for both employers and job seekers.</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal - Job Search</title>
+    <link rel="stylesheet" href="style.css">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="job_search.html">Search Jobs</a></li>
+                <li><a href="employer_post.html">Post a Job</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-container">
+        <h1>Search for Jobs</h1>
+        <form action="search_results.html" method="get">
+            <label for="job-title">Job Title:</label>
+            <input type="text" id="job-title" name="job_title" placeholder="Enter job title..." required><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter city or country..." required><br>
+
+            <label for="job-type">Job Type:</label>
+            <select id="job-type" name="job_type">
+                <option value="full-time">Full-time</option>
+                <option value="part-time">Part-time</option>
+                <option value="internship">Internship</option>
+                <option value="freelance">Freelance</option>
+            </select><br>
+
+            <button type="submit">Search Jobs</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Job Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
